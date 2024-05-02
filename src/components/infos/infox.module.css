@@ -1,0 +1,39 @@
+.infosContainer {
+  width: var(--containerSize);
+  height: calc(100vh - 100px);
+  color: var(--textColor);
+}
+
+.infos {
+}
+
+.infosItem {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.title {
+  color: var(--templateColor);
+  font-size: 35px;
+  line-height: 40px;
+  width: 400px;
+}
+
+.descr {
+  font-size: 20px;
+  line-height: 30px;
+  width: calc(100% - 400px);
+}
+
+hr {
+  margin: 50px 0;
+  height: 1px;
+  background-color: rgba(247, 243, 243, 0.2);
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
