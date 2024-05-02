@@ -1,5 +1,45 @@
 .navbar {
-  width: 1280px;
+  width: var(--containerSize);
   height: 100px;
-  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99px;
+  background-color: var(--bg);
+}
+
+.logo {
+  color: var(--templateColor);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navCenter {
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  color: var(--textColor);
+  gap: 40px;
+}
+
+.li a {
+  display: inline-flex;
+  color: var(--textColor);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navEnd {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--templateColor);
 }
