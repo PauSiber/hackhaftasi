@@ -71,7 +71,7 @@ const Hero = () => {
             </span>
           </div>
         </div>
-        <div className={styles.rightSide}>DEVASA CANAVAR RESMİ</div>
+        <div className={styles.rightSide}></div>
       </div>
       <div className={styles.timerContainer}>
         <span>Kalan süre: </span>
