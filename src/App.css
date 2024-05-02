@@ -5,6 +5,7 @@
   --textColor: #fff;
   --templateColor: #d5d820;
   --softColor: #aaa7b1;
+  --containerSize: 1280px;
 }
 
 * {
