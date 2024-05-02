@@ -1,0 +1,51 @@
+.awardsContainer {
+  width: var(--containerSize);
+  height: calc(100vh - 100px);
+  color: var(--textColor);
+  margin-top: 100px;
+}
+
+.title {
+  font-size: var(--PageTitleSize);
+  color: var(--templateColor);
+  margin-bottom: 100px;
+}
+
+.awards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.awardTitle {
+  font-size: 28px;
+}
+
+img {
+  margin: 15px 0;
+}
+
+.award2 > img {
+  width: 90px;
+  height: auto;
+}
+
+.award1 > img {
+  width: 280px;
+}
+
+.award3 > img {
+  width: 104px;
+}
+
+.awardName {
+  font-size: 16px;
+  color: var(--softColor);
+}

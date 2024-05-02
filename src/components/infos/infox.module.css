@@ -2,6 +2,9 @@
   width: var(--containerSize);
   height: calc(100vh - 100px);
   color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .infos {
@@ -15,7 +18,7 @@
 
 .title {
   color: var(--templateColor);
-  font-size: 35px;
+  font-size: 28px;
   line-height: 40px;
   width: 400px;
 }
