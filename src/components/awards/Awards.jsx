@@ -4,7 +4,7 @@ import styles from './awards.module.css';
 const Awards = () => {
   return (
     <div className={styles.awardsContainer}>
-      <h2 className={styles.title}>ÖDÜLLER</h2>
+      <span className={styles.title}>Ödüller</span>
       <div className={styles.awards}>
         <div className={`${styles.award2} ${styles.col}`}>
           <span className={styles.awardTitle}>

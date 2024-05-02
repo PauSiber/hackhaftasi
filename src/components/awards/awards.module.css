@@ -8,13 +8,13 @@
 .title {
   font-size: var(--PageTitleSize);
   color: var(--templateColor);
-  margin-bottom: 100px;
 }
 
 .awards {
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  margin-top: 64px;
 }
 
 .col {
