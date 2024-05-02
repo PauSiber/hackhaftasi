@@ -19,7 +19,7 @@
 }
 
 .App {
-  background-color: #000028;
+  background-color: var(--bg);
   display: flex;
   flex-direction: column;
   align-items: center;
