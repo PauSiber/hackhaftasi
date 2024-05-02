@@ -8,6 +8,7 @@ import Sponsor from './components/sponsor/Sponsor';
 import Tiny from './components/tiny/Tiny';
 import Footer from './components/footer/Footer';
 import Map from './components/map/Map';
+import Calendar from './components/calendar/Calendar';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Sponsor />
       <Tiny />
       <Map />
+      <Calendar />
       <Footer />
     </div>
   );
