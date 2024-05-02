@@ -76,7 +76,7 @@ const Hero = () => {
       <div className={styles.timerContainer}>
         <span>Kalan süre: </span>
         <div className={styles.timer}>
-          <CountdownTimer className={styles.counter} targetDate='2024-05-11' />
+          <CountdownTimer targetDate={new Date('2024-05-11T00:00:00')} />
         </div>
       </div>
     </div>
