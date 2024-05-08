@@ -1,5 +1,6 @@
 .heros {
-  width: var(--containerSize);
+  max-width: var(--containerSize);
+  width: 100%;
   height: calc(100vh - 100px);
   color: var(--textColor);
   display: flex;
@@ -88,7 +89,6 @@
   font-weight: 600;
   align-items: center;
   justify-content: center;
-  gap: 500px;
   height: 150px;
   padding: 30px;
   border-radius: 20px;

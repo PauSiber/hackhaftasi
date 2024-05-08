@@ -1,5 +1,6 @@
 .awardsContainer {
-  width: var(--containerSize);
+  max-width: var(--containerSize);
+  width: 100%;
   color: var(--textColor);
   padding: 64px 16px;
 }

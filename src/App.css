@@ -23,4 +23,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+
+.appContainer {
+  width: 100%;
+  max-width: var(--containerSize);
 }

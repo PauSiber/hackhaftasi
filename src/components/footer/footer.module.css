@@ -10,22 +10,13 @@
   padding: 0 16px;
 }
 
-.infos {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-}
-
-.infos li {
-  margin-bottom: 5px;
-}
-
 ul {
   list-style-type: none;
 }
 
 .footer-credits {
-  width: calc(var(--containerSize) - 32px);
+  max-width: calc(var(--containerSize) - 32px);
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
