@@ -1,0 +1,58 @@
+.jury {
+  margin-top: 50px;
+}
+
+.juryMembers {
+  width: var(--containerSize);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: var(--templateColor);
+  font-size: var(--PageTitleSize);
+  margin-bottom: 50px;
+}
+
+.juryMember {
+  width: calc(25% - 15px);
+  border-color: var(--textColor);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.juryMember :hover {
+  color: var(--templateColor);
+}
+
+.img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.memberName {
+  color: var(--textColor);
+  padding: 15px 0 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.memberInfo {
+  color: var(--textColor);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  gap: 3px;
+}
