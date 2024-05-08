@@ -3,7 +3,7 @@ import styles from './awards.module.css';
 
 const Awards = () => {
   return (
-    <div className={styles.awardsContainer}>
+    <div id='awards' className={styles.awardsContainer}>
       <span className={styles.title}>Ödüller</span>
       <div className={styles.awards}>
         <div className={`${styles.award2} ${styles.col}`}>
