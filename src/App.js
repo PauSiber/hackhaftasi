@@ -9,21 +9,22 @@ import Tiny from './components/tiny/Tiny';
 import Footer from './components/footer/Footer';
 import Map from './components/map/Map';
 import Calendar from './components/calendar/Calendar';
-import Background from './components/Background';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <Hero />
-      <Infos />
-      <Awards />
-      <Jury />
-      <Sponsor />
-      <Tiny />
-      <Map />
-      <Calendar />
-      <Footer />
+      <div className='appContainer'>
+        <Navbar />
+        <Hero />
+        <Infos />
+        <Awards />
+        {/* <Jury /> */}
+        <Sponsor />
+        <Tiny />
+        <Calendar />
+        <Map />
+        <Footer />
+      </div>
     </div>
   );
 }

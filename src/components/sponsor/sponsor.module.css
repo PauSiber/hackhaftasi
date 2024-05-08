@@ -1,0 +1,18 @@
+.container {
+  padding: 64px 0;
+}
+.title {
+  color: var(--templateColor);
+  font-size: var(--PageTitleSize);
+  margin-bottom: 50px;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  width: auto;
+  height: 300px;
+}

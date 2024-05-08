@@ -1,13 +1,10 @@
 .infosContainer {
   width: var(--containerSize);
-  height: 100vh;
   color: var(--textColor);
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.infos {
+  padding: 64px 0;
 }
 
 .infosItem {

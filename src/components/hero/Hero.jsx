@@ -52,7 +52,7 @@ const CountdownTimer = ({ targetDate }) => {
 
 const Hero = () => {
   return (
-    <div className={styles.heros}>
+    <div id='hero' className={styles.heros}>
       <div className={styles.hero}>
         <div className={styles.leftSide}>
           <span className={styles.subTitle}>PAUSIBER</span>
@@ -63,7 +63,7 @@ const Hero = () => {
           </p>
           <p className={styles.content}>Keşfet, Öğren, Kodla</p>
           <div className={styles.date}>
-            <span className={styles.days}>11-12</span>
+            <span className={styles.days}>18-19</span>
             <span className={styles.fullDay}>Mayıs 2024</span>
             <span className={styles.location}>
               <MdOutlinePlace className={styles.icon} />
@@ -71,12 +71,16 @@ const Hero = () => {
             </span>
           </div>
         </div>
-        <div className={styles.rightSide}></div>
+        <div className={styles.rightSide}>
+          <div className={styles.logoContainer}>
+            <img src='/images/pausiber-logo.png' alt='' />
+          </div>
+        </div>
       </div>
       <div className={styles.timerContainer}>
         <span>Kalan süre: </span>
         <div className={styles.timer}>
-          <CountdownTimer targetDate={new Date('2024-05-11T00:00:00')} />
+          <CountdownTimer targetDate={new Date('2024-05-18T00:00:00')} />
         </div>
       </div>
     </div>

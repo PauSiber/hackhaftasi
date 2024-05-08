@@ -3,7 +3,10 @@ import styles from './tiny.module.css';
 
 const Tiny = () => {
   return (
-    <div className={styles.tinyContainer}>
+    <div id='tiny' className={styles.tinyContainer}>
+      <div className={styles.title}>
+        <span>TINY</span>
+      </div>
       <iframe
         loading='lazy'
         className='rounded-sm w-full h-[600px]'

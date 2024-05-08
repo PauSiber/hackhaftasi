@@ -3,7 +3,7 @@ import styles from './infox.module.css';
 
 const Infos = () => {
   return (
-    <div className={styles.infosContainer}>
+    <div id='info' className={styles.infosContainer}>
       <ul className={styles.infos}>
         <li className={styles.infosItem}>
           <div className={styles.title}>Hack Haftasında Sizi Ne Bekliyor?</div>
