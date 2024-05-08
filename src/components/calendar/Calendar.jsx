@@ -3,7 +3,7 @@ import styles from './calendar.module.css';
 
 const calendar = [
   {
-    time: '10 : 00',
+    time: '09 : 00',
     day: '11 Mayıs 2024',
     title: 'Açılış',
   },
@@ -13,22 +13,12 @@ const calendar = [
     title: 'Öğle Arası',
   },
   {
-    time: '14 : 00',
-    day: '11 Mayıs 2024',
-    title: 'Kodlama Yarışması',
-  },
-  {
-    time: '16 : 00',
-    day: '11 Mayıs 2024',
-    title: 'Ödül Töreni',
-  },
-  {
     time: '18 : 00',
     day: '11 Mayıs 2024',
     title: 'Kapanış',
   },
   {
-    time: '10 : 00',
+    time: '09 : 00',
     day: '12 Mayıs 2024',
     title: '2. Gün Açılış',
   },
@@ -38,12 +28,7 @@ const calendar = [
     title: '2. Gün Öğle Arası',
   },
   {
-    time: '14 : 00',
-    day: '12 Mayıs 2024',
-    title: '2. Gün Kodlama Yarışması',
-  },
-  {
-    time: '16 : 00',
+    time: '17 : 00',
     day: '12 Mayıs 2024',
     title: '2. Gün Ödül Töreni',
   },
