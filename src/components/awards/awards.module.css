@@ -1,8 +1,8 @@
 .awardsContainer {
   width: var(--containerSize);
-  height: calc(100vh - 100px);
+  height: 500px;
   color: var(--textColor);
-  margin-top: 100px;
+  margin: 80px 0;
 }
 
 .title {
