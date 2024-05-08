@@ -1,6 +1,6 @@
 .infosContainer {
   width: var(--containerSize);
-  height: calc(100vh - 100px);
+  height: 100vh;
   color: var(--textColor);
   display: flex;
   align-items: center;
