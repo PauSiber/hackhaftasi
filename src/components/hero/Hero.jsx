@@ -52,7 +52,7 @@ const CountdownTimer = ({ targetDate }) => {
 
 const Hero = () => {
   return (
-    <div className={styles.heros}>
+    <div id='hero' className={styles.heros}>
       <div className={styles.hero}>
         <div className={styles.leftSide}>
           <span className={styles.subTitle}>PAUSIBER</span>

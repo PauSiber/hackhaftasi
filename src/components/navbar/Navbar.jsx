@@ -6,9 +6,11 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.navbar}>
-        <div className={styles.logo}>
-          <h3>HACK HAFTASI</h3>
-        </div>
+        <Link to='hero' spy={true} smooth={true} offset={-100} duration={400}>
+          <div className={styles.logo}>
+            <h3>HACK HAFTASI</h3>
+          </div>
+        </Link>
 
         <div>
           <ul className={styles.navCenter}>
