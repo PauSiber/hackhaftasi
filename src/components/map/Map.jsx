@@ -17,7 +17,12 @@ const Map = () => {
     });
   }, []); // useEffect sadece bir kez çalışması için boş bağımlılık dizisi ile çağrılır
 
-  return <div id='map' style={{ width: '1280px', height: '400px' }}></div>;
+  return (
+    <div
+      id='map'
+      style={{ width: '1248px', height: '400px', margin: '0 auto' }}
+    ></div>
+  );
 };
 
 const WrappedMap = () => (

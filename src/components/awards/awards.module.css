@@ -1,7 +1,7 @@
 .awardsContainer {
   width: var(--containerSize);
   color: var(--textColor);
-  padding: 64px 0;
+  padding: 64px 16px;
 }
 
 .title {
