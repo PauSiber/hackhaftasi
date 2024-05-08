@@ -1,20 +1,20 @@
 .awardsContainer {
   width: var(--containerSize);
-  height: 500px;
   color: var(--textColor);
-  margin: 80px 0;
+  padding: 64px 0;
 }
 
 .title {
   font-size: var(--PageTitleSize);
   color: var(--templateColor);
+  display: inline-block;
+  margin-bottom: 50px;
 }
 
 .awards {
   display: flex;
   justify-content: space-around;
   gap: 30px;
-  margin-top: 64px;
 }
 
 .col {
@@ -28,7 +28,7 @@
   font-size: 28px;
 }
 
-img {
+.img {
   margin: 15px 0;
 }
 

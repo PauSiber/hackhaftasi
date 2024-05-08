@@ -3,7 +3,7 @@ import styles from './sponsor.module.css';
 
 const Sponsor = () => {
   return (
-    <div id='sponsor'>
+    <div id='sponsor' className={styles.container}>
       <div className={styles.title}>
         <span>SPONSORLAR</span>
       </div>

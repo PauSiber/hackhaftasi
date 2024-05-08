@@ -1,6 +1,12 @@
 .tinyContainer {
   width: var(--containerSize);
-  margin-bottom: 100px;
+  margin: 64px 0;
+}
+
+.title {
+  color: var(--templateColor);
+  font-size: var(--PageTitleSize);
+  margin-bottom: 50px;
 }
 
 iframe {

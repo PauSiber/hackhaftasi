@@ -21,9 +21,11 @@ const Map = () => {
 };
 
 const WrappedMap = () => (
-  <LoadScript googleMapsApiKey='AIzaSyD1f6-u7U4CDW0pEU3zFDthvZZzvqfPoUg'>
-    <Map />
-  </LoadScript>
+  <div className={styles.container}>
+    <LoadScript googleMapsApiKey='AIzaSyD1f6-u7U4CDW0pEU3zFDthvZZzvqfPoUg'>
+      <Map />
+    </LoadScript>
+  </div>
 );
 
 export default WrappedMap;

@@ -1,3 +1,6 @@
+.container {
+  padding: 64px 0;
+}
 .title {
   color: var(--templateColor);
   font-size: var(--PageTitleSize);
@@ -7,7 +10,6 @@
 .sponsors {
   display: flex;
   justify-content: center;
-  /* padding-left: 100px; */
 }
 
 .img img {
