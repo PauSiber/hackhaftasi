@@ -20,7 +20,7 @@ const Infos = () => {
         <li className={styles.infosItem}>
           <div className={styles.title}>Katılım Şartları?</div>
           <div className={styles.descr}>
-            Takımlar 2 ile 5 kişi arasında olmalıdır.
+            Takımlar 1 ile 3 kişi arasında olmalıdır.
             <br />
             Katılımcılar arasında olumlu ve yapıcı bir iletişim beklenmektedir.
           </div>
