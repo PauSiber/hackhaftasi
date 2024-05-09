@@ -30,3 +30,9 @@
   width: 100%;
   max-width: var(--containerSize);
 }
+
+@media screen and (max-width: 768px) {
+  :root {
+    --PageTitleSize: 32px;
+  }
+}

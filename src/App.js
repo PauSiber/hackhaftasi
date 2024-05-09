@@ -20,8 +20,8 @@ function App() {
         <Awards />
         {/* <Jury /> */}
         <Sponsor />
-        <Tiny />
         <Calendar />
+        <Tiny />
         <Map />
         <Footer />
       </div>

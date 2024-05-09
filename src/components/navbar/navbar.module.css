@@ -20,9 +20,13 @@
 }
 
 .logo {
+  width: min-content;
   color: var(--templateColor);
-  font-size: 25px;
   cursor: pointer;
+}
+
+.logo h3 {
+  font-size: 25px;
 }
 
 .navCenter {
@@ -60,4 +64,116 @@
   background-color: var(--templateColor);
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+.navMobilContainer {
+  display: none;
+  align-items: center;
+}
+
+.menuToggle {
+  display: block;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 2001;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 80%);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.mobilMenu {
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: var(--bg);
+  position: absolute;
+  top: 70px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.mobilMenu ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobilMenu ul li {
+  list-style: none;
+  padding: 24px 36px;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navCenter {
+    gap: 8px;
+  }
+
+  .button {
+    padding: 8px;
+  }
+  .title {
+    font-size: 64px;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo h3 {
+    font-size: 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navMobilContainer {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    font-size: 36px;
+  }
 }

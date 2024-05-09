@@ -20,7 +20,12 @@ const Map = () => {
   return (
     <div
       id='map'
-      style={{ width: '1248px', height: '400px', margin: '0 auto' }}
+      style={{
+        maxWidth: '1248px',
+        width: '100%',
+        height: '400px',
+        margin: '0 auto',
+      }}
     ></div>
   );
 };

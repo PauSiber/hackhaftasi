@@ -102,3 +102,53 @@
   text-transform: capitalize;
   color: var(--softColor);
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 28px 36px;
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 0 36px;
+    padding-top: 45px;
+  }
+
+  .time {
+    width: 80px;
+    font-size: 16px;
+  }
+
+  .detail {
+    width: calc(100% - 80px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding: 16px;
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 0 16px;
+    padding-top: 45px;
+  }
+
+  .time {
+    width: 80px;
+    font-size: 16px;
+  }
+
+  .detail {
+    width: calc(100% - 80px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 16px 24px;
+  }
+}

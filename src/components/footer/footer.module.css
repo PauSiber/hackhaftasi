@@ -6,8 +6,8 @@
   justify-content: center;
   font-size: 14px;
   color: var(--softColor);
-  height: 120px;
   padding: 0 16px;
+  padding-bottom: 16px;
 }
 
 ul {
@@ -58,4 +58,12 @@ ul {
 }
 .languages {
   margin-right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .footer-credits {
+    flex-direction: column-reverse;
+    gap: 16px;
+    align-items: center;
+  }
 }
