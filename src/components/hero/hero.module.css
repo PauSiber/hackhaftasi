@@ -1,5 +1,6 @@
 .heros {
-  width: var(--containerSize);
+  max-width: var(--containerSize);
+  width: 100%;
   height: calc(100vh - 100px);
   color: var(--textColor);
   display: flex;
@@ -7,10 +8,10 @@
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  padding: 0 16px;
 }
 
 .hero {
-  width: var(--containerSize);
   display: flex;
 }
 
@@ -87,18 +88,19 @@
   font-size: 45px;
   font-weight: 600;
   align-items: center;
-  justify-content: center;
-  gap: 500px;
-  height: 150px;
   padding: 30px;
   border-radius: 20px;
 }
 
+.timerDesc {
+  flex: 1;
+}
+
 .timer {
   display: flex;
-  gap: 100px;
+  flex: 2;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -113,4 +115,122 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 72px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 64px;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    gap: 64px;
+  }
+  .subTitle {
+    font-size: 18px;
+  }
+
+  .mainTitle {
+    font-size: 40px;
+  }
+
+  .mainContent {
+    font-size: 20px;
+  }
+
+  .content {
+    font-size: 32px;
+  }
+
+  .date {
+    font-size: 24px;
+  }
+
+  .logoContainer {
+    width: 230px;
+    height: 230px;
+  }
+
+  .timerContainer {
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero {
+    gap: 48px;
+  }
+
+  .subTitle {
+    font-size: 16px;
+  }
+
+  .mainTitle {
+    font-size: 32px;
+  }
+
+  .mainContent {
+    font-size: 18px;
+  }
+
+  .content {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+
+  .logoContainer {
+    width: 180px;
+    height: 180px;
+  }
+
+  .timerContainer {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .hero {
+    gap: 36px;
+  }
+
+  .logoContainer {
+    width: 160px;
+    height: 160px;
+  }
+
+  .timerContainer {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero {
+    gap: 32px;
+  }
+
+  .logoContainer {
+    width: 120px;
+    height: 120px;
+  }
+
+  .timerContainer {
+    font-size: 18px;
+  }
 }

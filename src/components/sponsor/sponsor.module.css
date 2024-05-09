@@ -1,5 +1,5 @@
 .container {
-  padding: 64px 0;
+  padding: 64px 16px;
 }
 .title {
   color: var(--templateColor);
@@ -15,4 +15,11 @@
 .img img {
   width: auto;
   height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .img img {
+    width: auto;
+    height: 200px;
+  }
 }

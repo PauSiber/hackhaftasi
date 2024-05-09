@@ -1,7 +1,8 @@
 .awardsContainer {
-  width: var(--containerSize);
+  max-width: var(--containerSize);
+  width: 100%;
   color: var(--textColor);
-  padding: 64px 0;
+  padding: 64px 16px;
 }
 
 .title {
@@ -48,4 +49,40 @@
 .awardName {
   font-size: 16px;
   color: var(--softColor);
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .awards {
+    flex-direction: column;
+  }
+
+  .award1 {
+    order: 1;
+  }
+  .award2 {
+    order: 2;
+  }
+  .award3 {
+    order: 3;
+  }
+
+  .awardTitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .awards {
+    gap: 24px;
+  }
+
+  .awardTitle {
+    font-size: 20px;
+  }
 }

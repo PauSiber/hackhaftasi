@@ -1,29 +1,30 @@
 .infosContainer {
-  width: var(--containerSize);
+  max-width: var(--containerSize);
+  width: 100%;
   color: var(--textColor);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 64px 0;
+  padding: 64px 16px;
 }
 
 .infosItem {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 16px;
 }
 
 .title {
   color: var(--templateColor);
   font-size: 28px;
   line-height: 40px;
-  width: 400px;
+  flex: 1.5;
 }
 
 .descr {
   font-size: 20px;
   line-height: 30px;
-  width: calc(100% - 400px);
+  flex: 2;
 }
 
 hr {
@@ -36,4 +37,39 @@ hr {
 a {
   text-decoration: none;
   color: var(--textColor);
+}
+
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .descr {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .descr {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .infosItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .descr {
+    font-size: 14px;
+  }
 }
