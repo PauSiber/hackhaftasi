@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hackhaftasi/static/css/main.1f28b649.css",
+    "main.js": "/hackhaftasi/static/js/main.7c3f0308.js",
+    "index.html": "/hackhaftasi/index.html",
+    "main.1f28b649.css.map": "/hackhaftasi/static/css/main.1f28b649.css.map",
+    "main.7c3f0308.js.map": "/hackhaftasi/static/js/main.7c3f0308.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f28b649.css",
+    "static/js/main.7c3f0308.js"
+  ]
+}
