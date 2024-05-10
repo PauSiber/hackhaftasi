@@ -10,34 +10,37 @@ const Awards = () => {
           <span className={styles.awardTitle}>
             2. Takım <br /> Üyelerine
           </span>
-          <img
+          <div className={styles.question}>?</div>
+          {/* <img
             className={styles.img}
-            src='https://hackathon.aa.com.tr/images/IPadPro.png'
+            src=''
             alt=''
-          />
-          <span className={styles.awardName}>Ipad Pro</span>
+          /> */}
+          <span className={styles.awardName}></span>
         </div>
         <div className={`${styles.award1} ${styles.col}`}>
           <span className={styles.awardTitle}>
             1. Takım <br /> Üyelerine
           </span>
-          <img
+          <div className={styles.question}>?</div>
+          {/* <img
             className={styles.img}
-            src='https://hackathon.aa.com.tr/images/MacbookPro.png'
+            src=''
             alt=''
-          />
-          <span className={styles.awardName}>Macbook Pro</span>
+          /> */}
+          <span className={styles.awardName}></span>
         </div>
         <div className={`${styles.award3} ${styles.col}`}>
           <span className={styles.awardTitle}>
             3. Takım <br /> Üyelerine
           </span>
-          <img
+          <div className={styles.question}>?</div>
+          {/* <img
             className={styles.img}
-            src='https://hackathon.aa.com.tr/images/AirPodsPro.png'
+            src=''
             alt=''
-          />
-          <span className={styles.awardName}>AirPods Pro</span>
+          /> */}
+          <span className={styles.awardName}></span>
         </div>
       </div>
     </div>
