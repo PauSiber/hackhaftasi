@@ -85,8 +85,17 @@ const Navbar = () => {
         </div>
 
         <div className={styles.navEnd}>
-          <button className={styles.button}>BAŞVUR</button>
-          <button className={styles.button}>SPONSOR OL</button>
+          <a
+            className={styles.button}
+            href='https://forms.gle/tVhx14kQUQDR3zTSA'
+            target='_blank'
+            rel='noreferrer'
+          >
+            BAŞVUR
+          </a>
+          <a className={styles.button} href='mailto:sponsorluk@hackhaftasi.com'>
+            SPONSOR OL
+          </a>
         </div>
       </div>
 
