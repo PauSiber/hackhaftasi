@@ -18,7 +18,7 @@
 
 .img {
   width: calc(100% / 3 - 32px);
-  margin-bottom: 32px;
+  margin-bottom: 45px;
   overflow: hidden;
   display: flex;
   justify-content: center;

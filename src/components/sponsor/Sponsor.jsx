@@ -19,6 +19,14 @@ const Sponsor = () => {
         <div className={styles.img}>
           <img src='/images/ratel_logo.png' alt='' />
         </div>
+
+        <div className={styles.img}>
+          <img src='/images/tubitak_logo.png' alt='' />
+        </div>
+
+        <div className={styles.img}>
+          <img src='/images/secureWay.jpeg' alt='' />
+        </div>
       </div>
     </div>
   );
