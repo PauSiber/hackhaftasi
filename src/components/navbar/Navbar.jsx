@@ -177,6 +177,18 @@ const Navbar = () => {
                 <span>Tiny</span>
               </Link>
             </li>
+            <li className={`${styles.li} ${styles.otherLink}`}>
+              <a
+                href='https://forms.gle/tVhx14kQUQDR3zTSA'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Başvur
+              </a>
+            </li>
+            <li className={`${styles.li} ${styles.otherLink}`}>
+              <a href='mailto:sponsorluk@hackhaftasi.com'>Sponsor Ol</a>
+            </li>
           </ul>
         </div>
       )}

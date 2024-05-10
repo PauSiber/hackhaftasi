@@ -50,6 +50,10 @@
   color: var(--templateColor);
 }
 
+.otherLink a {
+  color: var(--templateColor) !important;
+}
+
 .navEnd {
   display: flex;
   gap: 10px;
@@ -113,19 +117,19 @@
   left: 0;
   display: flex;
   justify-content: center;
-  padding-top: 36px;
 }
 
 .mobilMenu ul {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
 }
 
 .mobilMenu ul li {
   list-style: none;
-  padding: 24px 36px;
+  padding: 20px 36px;
   text-transform: uppercase;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 @media screen and (max-width: 1280px) {
