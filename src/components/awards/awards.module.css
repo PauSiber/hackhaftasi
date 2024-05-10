@@ -29,7 +29,7 @@
   font-size: 28px;
 }
 
-.img {
+/* .img {
   margin: 15px 0;
 }
 
@@ -44,6 +44,10 @@
 
 .award3 > img {
   width: 104px;
+} */
+
+.question {
+  font-size: 130px;
 }
 
 .awardName {
