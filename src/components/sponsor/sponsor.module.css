@@ -8,18 +8,30 @@
 }
 
 .sponsors {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.img {
+  width: calc(100% / 3 - 32px);
+  margin-bottom: 32px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img img {
-  width: auto;
-  height: 300px;
+  width: 65%;
+  height: auto;
 }
 
 @media screen and (max-width: 768px) {
   .img img {
-    width: auto;
-    height: 200px;
+    width: 100%;
   }
 }

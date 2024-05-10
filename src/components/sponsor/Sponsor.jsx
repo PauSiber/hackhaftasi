@@ -9,16 +9,16 @@ const Sponsor = () => {
       </div>
       <div className={styles.sponsors}>
         <div className={styles.img}>
-          <img src='/images/skb_logo.png' alt='' />
-        </div>
-
-        {/* <div className={styles.img}>
-          <img src='/images/skb_logo.png' alt='' />
+          <img src='/images/pausiber-logo-cekirdek.png' alt='' />
         </div>
 
         <div className={styles.img}>
           <img src='/images/skb_logo.png' alt='' />
-        </div> */}
+        </div>
+
+        <div className={styles.img}>
+          <img src='/images/ratel_logo.png' alt='' />
+        </div>
       </div>
     </div>
   );
