@@ -57,6 +57,16 @@ const Sponsor = () => {
             alt=''
           />
         </div>
+
+        <div className={styles.img}>
+          <img
+            onClick={function redirectToLinkedIn() {
+              window.open('https://www.netinternet.com.tr/', '_blank');
+            }}
+            src='/images/netinternet.svg'
+            alt=''
+          />
+        </div>
       </div>
     </div>
   );
