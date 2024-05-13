@@ -14,7 +14,7 @@ const Sponsor = () => {
                             window.open('https://pausiber.xyz/', '_blank');
                         }}
                         src='/images/pausiber-logo-cekirdek.png'
-                        alt=''
+                        alt='pausiber_cekirdek_logo'
                     />
                 </div>
 
@@ -24,7 +24,7 @@ const Sponsor = () => {
                             window.open('https://siberkulupler.com/', '_blank');
                         }}
                         src='/images/skb_logo.png'
-                        alt=''
+                        alt='skb_logo'
                     />
                 </div>
 
@@ -34,7 +34,7 @@ const Sponsor = () => {
                             window.open('https://ratel.com.tr/tr/', '_blank');
                         }}
                         src='/images/ratel_logo.webp'
-                        alt=''
+                        alt='ratel_logo'
                     />
                 </div>
 
@@ -44,7 +44,7 @@ const Sponsor = () => {
                             window.open('https://www.tubitak.gov.tr/', '_blank');
                         }}
                         src='/images/tubitak_logo.png'
-                        alt=''
+                        alt='tubitak_logo'
                     />
                 </div>
 
@@ -54,7 +54,7 @@ const Sponsor = () => {
                             window.open('https://secureway.com.tr/', '_blank');
                         }}
                         src='/images/secureWay.jpeg'
-                        alt=''
+                        alt='secure_way_logo'
                     />
                 </div>
 
@@ -64,7 +64,16 @@ const Sponsor = () => {
                             window.open('https://www.netinternet.com.tr/', '_blank');
                         }}
                         src='/images/netinternet.svg'
-                        alt=''
+                        alt='netinternet_logo'
+                    />
+                </div>
+                <div className={styles.img}>
+                    <img
+                        onClick={function redirectToLinkedIn() {
+                            window.open('https://bento.me/turkiye-rust-community', '_blank');
+                        }}
+                        src='/images/turkiye_rust_community.jpg'
+                        alt='turkiye_rust_community_logo'
                     />
                 </div>
             </div>
