@@ -48,7 +48,7 @@ const Navbar = () => {
                 <span>Ödüller</span>
               </Link>
             </li>
-            <li className={styles.li}>
+            {/* <li className={styles.li}>
               <Link
                 to='jury'
                 spy={true}
@@ -58,7 +58,7 @@ const Navbar = () => {
               >
                 <span>Jüri</span>
               </Link>
-            </li>
+            </li> */}
             <li className={styles.li}>
               <Link
                 to='sponsor'
@@ -68,6 +68,17 @@ const Navbar = () => {
                 duration={400}
               >
                 <span>Sponsorlar</span>
+              </Link>
+            </li>
+            <li className={styles.li}>
+              <Link
+                to='calendar'
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={400}
+              >
+                <span>Takvim</span>
               </Link>
             </li>
             <li className={styles.li}>
