@@ -10,37 +10,22 @@ const Awards = () => {
           <span className={styles.awardTitle}>
             2. Takım <br /> Üyelerine
           </span>
-          <div className={styles.question}>?</div>
-          {/* <img
-            className={styles.img}
-            src=''
-            alt=''
-          /> */}
-          <span className={styles.awardName}></span>
+
+          <img className={styles.img} src='/images/second_prize.png' alt='' />
         </div>
         <div className={`${styles.award1} ${styles.col}`}>
           <span className={styles.awardTitle}>
             1. Takım <br /> Üyelerine
           </span>
-          <div className={styles.question}>?</div>
-          {/* <img
-            className={styles.img}
-            src=''
-            alt=''
-          /> */}
-          <span className={styles.awardName}></span>
+
+          <img className={styles.img} src='/images/first_prize.png' alt='' />
         </div>
         <div className={`${styles.award3} ${styles.col}`}>
           <span className={styles.awardTitle}>
             3. Takım <br /> Üyelerine
           </span>
-          <div className={styles.question}>?</div>
-          {/* <img
-            className={styles.img}
-            src=''
-            alt=''
-          /> */}
-          <span className={styles.awardName}></span>
+
+          <img className={styles.img} src='/images/third_prize.png' alt='' />
         </div>
       </div>
     </div>
