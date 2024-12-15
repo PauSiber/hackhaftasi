@@ -31,6 +31,16 @@
   margin-bottom: 40px;
 }
 
+.questionmark {
+  font-size: 150px;
+  color: var(--templateColor);
+}
+
+.questionmark1 {
+  font-size: 200px;
+  color: var(--templateColor);
+}
+
 .award2 > img {
   width: 150px;
 }
