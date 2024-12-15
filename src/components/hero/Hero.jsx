@@ -63,8 +63,8 @@ const Hero = () => {
           </p>
           <p className={styles.content}>Keşfet, Öğren, Kodla</p>
           <div className={styles.date}>
-            <span className={styles.days}>18-19</span>
-            <span className={styles.fullDay}>Mayıs 2024</span>
+            <span className={styles.days}>21-22</span>
+            <span className={styles.fullDay}>Aralık 2024</span>
             <span className={styles.location}>
               <MdOutlinePlace className={styles.icon} />
               Hackerspace/Denizli
@@ -82,7 +82,7 @@ const Hero = () => {
           <span className={styles.timerDesc}>Kalan süre: </span>
         </div>
         <div className={styles.timer}>
-          <CountdownTimer targetDate={new Date('2024-05-18T00:00:00')} />
+          <CountdownTimer targetDate={new Date('2024-12-21T00:00:00')} />
         </div>
       </div>
     </div>
