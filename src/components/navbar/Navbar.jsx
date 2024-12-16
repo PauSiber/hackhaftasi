@@ -98,7 +98,7 @@ const Navbar = () => {
         <div className={styles.navEnd}>
           <a
             className={styles.button}
-            href='https://forms.gle/tVhx14kQUQDR3zTSA'
+            href='https://forms.gle/ATj1SXBz4QBBAf4aA'
             target='_blank'
             rel='noreferrer'
           >
@@ -161,7 +161,7 @@ const Navbar = () => {
                 <span>Ödüller</span>
               </Link>
             </li>
-            <li className={styles.li}>
+            {/* <li className={styles.li}>
               <Link
                 to='jury'
                 spy={true}
@@ -172,7 +172,7 @@ const Navbar = () => {
               >
                 <span>Jüri</span>
               </Link>
-            </li>
+            </li> */}
             <li className={styles.li}>
               <Link
                 to='sponsor'
