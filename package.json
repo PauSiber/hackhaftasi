@@ -21,13 +21,17 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "postinstall": "npx update-browserslist-db@latest --update-db"
     },
     "eslintConfig": {
         "extends": [
             "react-app",
             "react-app/jest"
-        ]
+        ],
+        "rules": {
+            "no-unused-vars": "warn"
+        }
     },
     "browserslist": {
         "production": [
@@ -42,6 +46,7 @@
         ]
     },
     "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "gh-pages": "^6.1.1"
     }
 }
