@@ -199,7 +199,7 @@ const Navbar = () => {
             </li>
             <li className={`${styles.li} ${styles.otherLink}`}>
               <a
-                href='https://forms.gle/tVhx14kQUQDR3zTSA'
+                href='https://forms.gle/ATj1SXBz4QBBAf4aA'
                 target='_blank'
                 rel='noreferrer'
               >
