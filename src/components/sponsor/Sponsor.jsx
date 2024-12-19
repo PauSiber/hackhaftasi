@@ -33,6 +33,11 @@ const allSponsors = [
         imgAlt: 'netinternet_logo',
     },
     {
+        webUrl: 'https://lab2023.com/',
+        imgUrl: '/images/lab2023.png',
+        imgAlt: 'lab2023_logo',
+    },
+    {
         webUrl: 'https://bento.me/turkiye-rust-community',
         imgUrl: '/images/turkiye_rust_community.jpg',
         imgAlt: 'turkiye_rust_community_logo',
