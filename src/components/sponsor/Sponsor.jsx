@@ -37,16 +37,16 @@ const allSponsors = [
         imgUrl: '/images/lab2023.png',
         imgAlt: 'lab2023_logo',
     },
-    {
-        webUrl: 'https://bento.me/turkiye-rust-community',
-        imgUrl: '/images/turkiye_rust_community.jpg',
-        imgAlt: 'turkiye_rust_community_logo',
-    },
-    {
-        webUrl: 'https://magfiads.com/',
-        imgUrl: '/images/magfiADS.png',
-        imgAlt: 'mafiADS_logo',
-    },
+    // {
+    //     webUrl: 'https://bento.me/turkiye-rust-community',
+    //     imgUrl: '/images/turkiye_rust_community.jpg',
+    //     imgAlt: 'turkiye_rust_community_logo',
+    // },
+    // {
+    //     webUrl: 'https://magfiads.com/',
+    //     imgUrl: '/images/magfiADS.png',
+    //     imgAlt: 'mafiADS_logo',
+    // },
 ];
 
 const Sponsor = () => {

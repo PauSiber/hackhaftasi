@@ -20,7 +20,7 @@ function App() {
                 {/* <Jury /> */}
                 <Sponsor />
                 <Calendar />
-                <Tiny />
+                {/*<Tiny />*/}
                 <Map />
                 <Footer />
             </div>

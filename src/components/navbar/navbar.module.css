@@ -1,184 +1,202 @@
 .container {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99;
-  background-color: var(--bg);
-  padding: 0 16px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: var(--bg);
+    padding: 0 16px;
 }
 
 .navbar {
-  max-width: calc(var(--containerSize) - 32px);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+    max-width: calc(var(--containerSize) - 32px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .logo {
-  width: min-content;
-  color: var(--templateColor);
-  cursor: pointer;
+    width: min-content;
+    color: var(--templateColor);
+    cursor: pointer;
 }
 
 .logo h3 {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .navCenter {
-  display: flex;
-  list-style: none;
-  font-weight: 500;
-  color: var(--textColor);
-  gap: 40px;
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    color: var(--textColor);
+    gap: 40px;
 }
 
 .li {
-  cursor: pointer;
-  display: inline-flex;
-  color: var(--textColor);
-  text-decoration: none;
-  padding: 5px 10px;
-  transition: 0.3s ease-in-out;
+    cursor: pointer;
+    display: inline-flex;
+    color: var(--textColor);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s ease-in-out;
 }
 
 .li:hover {
-  color: var(--templateColor);
+    color: var(--templateColor);
 }
 
 .otherLink a {
-  color: var(--templateColor) !important;
+    color: var(--templateColor) !important;
 }
 
 .navEnd {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    gap: 10px;
 }
 
 .button {
-  border-style: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: 600;
-  background-color: var(--templateColor);
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-  color: black;
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--templateColor);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: black;
 }
 
 .navMobilContainer {
-  display: none;
-  align-items: center;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mobileRightSide {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.mobileButton {
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--templateColor);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: black;
 }
 
 .menuToggle {
-  display: block;
-  position: fixed;
-  top: 24px;
-  right: 24px;
-  z-index: 2001;
-  cursor: pointer;
+    display: block;
+    position: relative;
+    z-index: 2001;
+    cursor: pointer;
 }
 
 .bar1,
 .bar2,
 .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: rgba(255, 255, 255, 80%);
-  margin: 6px 0;
-  transition: 0.4s;
+    width: 35px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 80%);
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 .change .bar2 {
-  opacity: 0;
+    opacity: 0;
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .mobilMenu {
-  width: 100%;
-  height: calc(100vh - 70px);
-  background-color: var(--bg);
-  position: absolute;
-  top: 70px;
-  left: 0;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: var(--bg);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .mobilMenu ul {
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
 }
 
 .mobilMenu ul li {
-  list-style: none;
-  padding: 20px 36px;
-  text-transform: uppercase;
-  font-size: 32px;
+    list-style: none;
+    padding: 20px 36px;
+    text-transform: uppercase;
+    font-size: 32px;
 }
 
 @media screen and (max-width: 1280px) {
-  .title {
-    font-size: 72px;
-  }
+    .title {
+        font-size: 72px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-  .navCenter {
-    gap: 8px;
-  }
+    .navCenter {
+        gap: 8px;
+    }
 
-  .button {
-    padding: 8px;
-  }
-  .title {
-    font-size: 64px;
-  }
+    .button {
+        padding: 8px;
+    }
+    .title {
+        font-size: 64px;
+    }
 
-  .imgContainer {
-    display: none;
-  }
+    .imgContainer {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+    .container {
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-  .logo h3 {
-    font-size: 20px;
-  }
+    .logo h3 {
+        font-size: 20px;
+    }
 
-  .navbar {
-    display: none;
-  }
+    .navbar {
+        display: none;
+    }
 
-  .navMobilContainer {
-    display: flex;
-  }
+    .navMobilContainer {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 640px) {
-  .title {
-    font-size: 36px;
-  }
+    .title {
+        font-size: 36px;
+    }
 }

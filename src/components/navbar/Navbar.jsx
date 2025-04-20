@@ -81,7 +81,7 @@ const Navbar = () => {
                 <span>Takvim</span>
               </Link>
             </li>
-            <li className={styles.li}>
+            {/*<li className={styles.li}>
               <Link
                 to='tiny'
                 spy={true}
@@ -91,14 +91,14 @@ const Navbar = () => {
               >
                 <span>Tiny</span>
               </Link>
-            </li>
+            </li>*/}
           </ul>
         </div>
 
         <div className={styles.navEnd}>
           <a
             className={styles.button}
-            href='https://forms.gle/ATj1SXBz4QBBAf4aA'
+            href='https://forms.gle/smBoL3B8veqaM9UZ9'
             target='_blank'
             rel='noreferrer'
           >
@@ -124,6 +124,16 @@ const Navbar = () => {
             <h3>HAFTASI</h3>
           </div>
         </Link>
+        <div className={styles.mobileRightSide}>
+              <a
+                className={styles.mobileButton}
+                href='https://forms.gle/smBoL3B8veqaM9UZ9'
+                target='_blank'
+                rel='noreferrer'
+              >
+                BAŞVUR
+              </a>
+
         <div
           className={`${styles.menuToggle} ${isOpen ? styles.change : ''}`}
           onClick={handleOpen}
@@ -131,6 +141,7 @@ const Navbar = () => {
           <div className={styles.bar1}></div>
           <div className={styles.bar2}></div>
           <div className={styles.bar3}></div>
+          </div>
         </div>
       </div>
 
@@ -185,7 +196,7 @@ const Navbar = () => {
                 <span>Sponsorlar</span>
               </Link>
             </li>
-            <li className={styles.li}>
+            {/*<li className={styles.li}>
               <Link
                 to='tiny'
                 spy={true}
@@ -196,16 +207,7 @@ const Navbar = () => {
               >
                 <span>Tiny</span>
               </Link>
-            </li>
-            <li className={`${styles.li} ${styles.otherLink}`}>
-              <a
-                href='https://forms.gle/ATj1SXBz4QBBAf4aA'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Başvur
-              </a>
-            </li>
+            </li>*/}
             <li className={`${styles.li} ${styles.otherLink}`}>
               <a href='mailto:sponsorluk@hackhaftasi.com'>Sponsor Ol</a>
             </li>
