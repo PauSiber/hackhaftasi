@@ -4,7 +4,7 @@ import { LoadScript } from '@react-google-maps/api';
 
 const Map = () => {
     useEffect(() => {
-        const myLatLng = { lat: 37.738728425049814, lng: 29.092283371592714 };
+        const myLatLng = { lat: 37.73914882422805, lng: 29.099903542328892 };
         const map = new window.google.maps.Map(document.getElementById('map'), {
             zoom: 20,
             center: myLatLng,

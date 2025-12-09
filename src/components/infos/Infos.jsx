@@ -46,10 +46,7 @@ const Infos = () => {
         <li className={styles.infosItem}>
           <div className={styles.title}>Hack Haftası Nerede Gerçekleşecek?</div>
           <div className={styles.descr}>
-            Hackerspace (Pamukkale Üniversitesi - Teknokent Binası)
-            <br />
-            <b>Adres:</b> Çamlaraltı, C, 20070, Hüseyin Yılmaz Cd. No:67, 20160
-            Merkezefendi/Denizli
+            Mühendislik Fakültesi A blok Kınıklı Pamukkale/Denizli
           </div>
         </li>
       </ul>

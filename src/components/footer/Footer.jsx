@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className={styles.footer}>
             <div className={styles['footer-credits']}>
                 <ul className={styles['left-side']}>
-                    <li>© 2024 PAUSIBER | Tüm Hakları Saklıdır</li>
+                    <li>© 2025 PAUSIBER | Tüm Hakları Saklıdır</li>
                 </ul>
 
                 <ul className={styles['right-side']}>

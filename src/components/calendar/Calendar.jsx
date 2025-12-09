@@ -4,47 +4,47 @@ import styles from './calendar.module.css';
 const calendar = [
     {
         time: '09 : 00',
-        day: '26 Nisan 2025',
+        day: '13 Aralık 2025',
         title: 'Açılış(Etkinlik Başlangıcı)',
     },
     {
         time: '13 : 00',
-        day: '26 Nisan 2025',
+        day: '13 Aralık 2025',
         title: 'Öğle Arası',
     },
     {
         time: '18 : 00',
-        day: '26 Nisan 2025',
+        day: '13 Aralık 2025',
         title: 'Akşam Yemeği Molası',
     },
     {
         time: '19 : 00',
-        day: '26 Nisan 2025',
+        day: '13 Aralık 2025',
         title: 'Sabaha Kadar Etkinliğe Devam    ',
     },
     {
         time: '08 : 00',
-        day: '27 Nisan 2025',
+        day: '14 Aralık 2025',
         title: '2. Gün: Kahvaltı Molası',
     },
     {
         time: '12 : 00',
-        day: '27 Nisan 2025',
+        day: '14 Aralık 2025',
         title: '2. Gün: Öğle Arası',
     },
     {
         time: '15 : 00',
-        day: '27 Nisan 2025',
-        title: '2. Gün: Etkinlik Bitişi',
+        day: '14 Aralık 2025',
+        title: '2. Gün: Proje Sunumları ve Jürilerin Değerlendirmesi',
     },
     {
         time: '17 : 00',
-        day: '27 Nisan 2025',
+        day: '14 Aralık 2025',
         title: '2. Gün: Ödül Töreni',
     },
     {
         time: '18 : 00',
-        day: '27 Nisan 2025',
+        day: '14 Aralık 2025',
         title: '2. Gün: Kapanış',
     },
 ];
@@ -95,7 +95,7 @@ const Calendar = () => {
         </div> */}
             </div>
             <div className={styles.header}>
-                <span> 26 Nisan 2025 - 27 Nisan 2025 </span>
+                <span> 13 Aralık 2025 - 14 Aralık 2025 </span>
             </div>
             <div className={styles.content}>
                 {calendar.map((item, index) => {
@@ -104,7 +104,7 @@ const Calendar = () => {
                             <div className={styles.time}>{item.time}</div>
                             <div className={styles.detail}>
                                 <span className={styles.title}>{item.title}</span>
-                                <span className={styles.location}>Teknokent - Hackerspace</span>
+                                <span className={styles.location}>Mühendislik Fakültesi - A Blok</span>
                             </div>
                         </div>
                     );

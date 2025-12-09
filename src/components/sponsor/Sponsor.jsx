@@ -13,30 +13,40 @@ const allSponsors = [
         imgAlt: 'skb_logo',
     },
     {
-        webUrl: 'https://ratel.com.tr/tr/',
-        imgUrl: '/images/ratel_logo.webp',
-        imgAlt: 'ratel_logo',
+        webUrl: 'https://gsb.gov.tr/tr',
+        imgUrl: '/images/spor-bakanligi.png',
+        imgAlt: 'bakanlik_logo',
     },
     {
-        webUrl: 'https://www.tubitak.gov.tr/',
-        imgUrl: '/images/tubitak_logo.png',
-        imgAlt: 'tubitak_logo',
+        webUrl: 'https://genclikhizmetleri.gov.tr/hizmetlerimiz/genclik-projeleri-destek-programi-6/unides/',
+        imgUrl: '/images/unides.png',
+        imgAlt: 'unides_logo',
     },
-    {
-        webUrl: 'https://secureway.com.tr/',
-        imgUrl: '/images/secureWay.jpeg',
-        imgAlt: 'secure_way_logo',
-    },
-    {
-        webUrl: 'https://www.netinternet.com.tr/',
-        imgUrl: '/images/netinternet.svg',
-        imgAlt: 'netinternet_logo',
-    },
-    {
-        webUrl: 'https://lab2023.com/',
-        imgUrl: '/images/lab2023.png',
-        imgAlt: 'lab2023_logo',
-    },
+    //   {
+    //       webUrl: 'https://ratel.com.tr/tr/',
+    //       imgUrl: '/images/ratel_logo.webp',
+    //       imgAlt: 'ratel_logo',
+    //   },
+    // {
+    //       webUrl: 'https://www.tubitak.gov.tr/',
+    //       imgUrl: '/images/tubitak_logo.png',
+    //       imgAlt: 'tubitak_logo',
+    //   },
+    // {
+    //       webUrl: 'https://secureway.com.tr/',
+    //       imgUrl: '/images/secureWay.jpeg',
+    //       imgAlt: 'secure_way_logo',
+    //   },
+    // {
+    //       webUrl: 'https://www.netinternet.com.tr/',
+    //       imgUrl: '/images/netinternet.svg',
+    //       imgAlt: 'netinternet_logo',
+    //   },
+    // {
+    //       webUrl: 'https://lab2023.com/',
+    //       imgUrl: '/images/lab2023.png',
+    //       imgAlt: 'lab2023_logo',
+    //   },
     // {
     //     webUrl: 'https://bento.me/turkiye-rust-community',
     //     imgUrl: '/images/turkiye_rust_community.jpg',
@@ -61,8 +71,8 @@ const Sponsor = () => {
                     justifyContent: allSponsors.length <= 3 ? 'flex-start' : 'center',
                 }}
             >
-                {allSponsors.map((sponsor) => (
-                    <div className={styles.img}>
+                {allSponsors.map((sponsor, index) => (
+                    <div className={`${styles.img} ${index >= 2 ? styles.largeImg : ''}`}>
                         <img
                             onClick={function redirectToLinkedIn() {
                                 window.open(sponsor.webUrl, '_blank');
