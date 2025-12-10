@@ -127,7 +127,7 @@ const Navbar = () => {
                 <div className={styles.mobileRightSide}>
                     <a
                         className={styles.mobileButton}
-                        href='https://forms.gle/smBoL3B8veqaM9UZ9'
+                        href='https://kommunity.com/pausiber/events/codecareer-fest25-hackahton-18735be2'
                         target='_blank'
                         rel='noreferrer'
                     >
