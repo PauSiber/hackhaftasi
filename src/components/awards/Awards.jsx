@@ -10,22 +10,22 @@ const Awards = () => {
                     <span className={styles.awardTitle}>
                         1. Takım <br /> Üyelerine
                     </span>
-                    <div className={styles.questionmark}>?</div>
-                    {/* <img className={styles.img} src='/images/prize2.png' alt='' /> */}
+                    {/* <div className={styles.questionmark}>?</div> */}
+                    <img className={styles.img} src='/images/award_anker.png' alt='' />
                 </div>
                 <div className={`${styles.award3} ${styles.col}`}>
                     <span className={styles.awardTitle}>
                         2. Takım <br /> Üyelerine
                     </span>
-                    <div className={styles.questionmark1}>?</div>
-                    {/* <img className={styles.img} src='/images/prize3.png' alt='' /> */}
+                    {/* <div className={styles.questionmark1}>?</div> */}
+                    <img className={styles.img} src='/images/award_mouse.png' alt='' />
                 </div>
                 <div className={`${styles.award3} ${styles.col}`}>
                     <span className={styles.awardTitle}>
                         3. Takım <br /> Üyelerine
                     </span>
-                    <div className={styles.questionmark}>?</div>
-                    {/* <img className={styles.img} src='/images/prize3_v2.png' alt='' /> */}
+                    {/* <div className={styles.questionmark}>?</div> */}
+                    <img className={styles.img} src='/images/prize3.png' alt='' />
                 </div>
             </div>
         </div>
