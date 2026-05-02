@@ -26,31 +26,29 @@
 }
 
 .awardTitle {
-  font-size: 28px;
+  font-size: 36px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
-.questionmark {
-  font-size: 150px;
+.amount {
+  font-size: 96px;
+  font-weight: 700;
   color: var(--templateColor);
+  line-height: 1;
 }
 
-.questionmark1 {
-  font-size: 200px;
-  color: var(--templateColor);
+.couponLabel {
+  font-size: 20px;
+  margin-top: 8px;
+  text-align: center;
 }
 
-.award2 > img {
-  width: 150px;
-}
-
-.award1 > img {
-  width: 200px;
-}
-
-.award3 > img {
-  width: 150px;
+.perMemberNote {
+  font-size: 14px;
+  margin-top: 6px;
+  opacity: 0.7;
+  text-align: center;
 }
 
 @media screen and (max-width: 1280px) {
@@ -77,7 +75,11 @@
   }
 
   .awardTitle {
-    font-size: 24px;
+    font-size: 30px;
+  }
+
+  .amount {
+    font-size: 80px;
   }
 }
 
@@ -87,6 +89,14 @@
   }
 
   .awardTitle {
-    font-size: 20px;
+    font-size: 26px;
+  }
+
+  .amount {
+    font-size: 64px;
+  }
+
+  .couponLabel {
+    font-size: 18px;
   }
 }

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './hero.module.css';
 import { MdOutlinePlace } from 'react-icons/md';
+import { HiSparkles } from 'react-icons/hi';
 
 const CountdownTimer = ({ targetDate }) => {
   const calculateTimeLeft = () => {
@@ -62,9 +63,14 @@ const Hero = () => {
             etkinliğimize katılın ve yaratıcılığınızı keşfedin!
           </p>
           <p className={styles.content}>Keşfet, Öğren, Kodla</p>
+          <div className={styles.aiTag}>
+            <HiSparkles className={styles.aiTagIcon} />
+            <span>AI EDITION 2026</span>
+            <HiSparkles className={styles.aiTagIcon} />
+          </div>
           <div className={styles.date}>
-            <span className={styles.days}>13-14</span>
-            <span className={styles.fullDay}>Aralık 2025</span>
+            <span className={styles.days}>9-10</span>
+            <span className={styles.fullDay}>Mayıs 2026</span>
             <span className={styles.location}>
               <MdOutlinePlace className={styles.icon} />
               Mühendislik Fakültesi/Denizli
@@ -82,7 +88,7 @@ const Hero = () => {
           <span className={styles.timerDesc}>Kalan süre: </span>
         </div>
         <div className={styles.timer}>
-          <CountdownTimer targetDate={new Date('2025-12-13T00:00:00')} />
+          <CountdownTimer targetDate={new Date('2026-05-09T00:00:00')} />
         </div>
       </div>
     </div>

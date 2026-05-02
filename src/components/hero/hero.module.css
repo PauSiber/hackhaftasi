@@ -40,6 +40,43 @@
   font-size: 40px;
 }
 
+.aiTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--templateColor);
+  border: 1px solid var(--templateColor);
+  border-radius: 999px;
+  width: fit-content;
+  background: rgba(213, 216, 32, 0.06);
+  text-shadow: 0 0 12px rgba(213, 216, 32, 0.5);
+  box-shadow: 0 0 20px rgba(213, 216, 32, 0.15),
+    inset 0 0 12px rgba(213, 216, 32, 0.06);
+  animation: aiTagPulse 3s ease-in-out infinite;
+}
+
+.aiTagIcon {
+  font-size: 16px;
+  filter: drop-shadow(0 0 6px rgba(213, 216, 32, 0.7));
+}
+
+@keyframes aiTagPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 16px rgba(213, 216, 32, 0.15),
+      inset 0 0 8px rgba(213, 216, 32, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(213, 216, 32, 0.35),
+      inset 0 0 14px rgba(213, 216, 32, 0.12);
+  }
+}
+
 .date {
   margin-top: 20px;
   display: flex;
