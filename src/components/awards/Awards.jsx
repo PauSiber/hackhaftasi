@@ -6,26 +6,29 @@ const Awards = () => {
         <div id='awards' className={styles.awardsContainer}>
             <span className={styles.title}>Ödüller</span>
             <div className={styles.awards}>
-                <div className={`${styles.award2} ${styles.col}`}>
+                <div className={`${styles.award1} ${styles.col}`}>
                     <span className={styles.awardTitle}>
                         1. Takım <br /> Üyelerine
                     </span>
-                    {/* <div className={styles.questionmark}>?</div> */}
-                    <img className={styles.img} src='/images/award_anker.png' alt='' />
+                    <span className={styles.amount}>?</span>
+                    {/* <span className={styles.amount}>1000 TL</span> */}
+                    {/* <span className={styles.couponLabel}>Alışveriş Kuponu</span> */}
                 </div>
-                <div className={`${styles.award3} ${styles.col}`}>
+                <div className={`${styles.award2} ${styles.col}`}>
                     <span className={styles.awardTitle}>
                         2. Takım <br /> Üyelerine
                     </span>
-                    {/* <div className={styles.questionmark1}>?</div> */}
-                    <img className={styles.img} src='/images/award_mouse.png' alt='' />
+                    <span className={styles.amount}>?</span>
+                    {/* <span className={styles.amount}>750 TL</span> */}
+                    {/* <span className={styles.couponLabel}>Alışveriş Kuponu</span> */}
                 </div>
                 <div className={`${styles.award3} ${styles.col}`}>
                     <span className={styles.awardTitle}>
                         3. Takım <br /> Üyelerine
                     </span>
-                    {/* <div className={styles.questionmark}>?</div> */}
-                    <img className={styles.img} src='/images/prize3.png' alt='' />
+                    <span className={styles.amount}>?</span>
+                    {/* <span className={styles.amount}>500 TL</span> */}
+                    {/* <span className={styles.couponLabel}>Alışveriş Kuponu</span> */}
                 </div>
             </div>
         </div>

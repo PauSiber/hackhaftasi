@@ -4,47 +4,47 @@ import styles from './calendar.module.css';
 const calendar = [
     {
         time: '09 : 00',
-        day: '13 Aralık 2025',
+        day: '9 Mayıs 2026',
         title: 'Açılış(Etkinlik Başlangıcı)',
     },
     {
         time: '13 : 00',
-        day: '13 Aralık 2025',
+        day: '9 Mayıs 2026',
         title: 'Öğle Arası',
     },
     {
         time: '18 : 00',
-        day: '13 Aralık 2025',
+        day: '9 Mayıs 2026',
         title: 'Akşam Yemeği Molası',
     },
     {
         time: '19 : 00',
-        day: '13 Aralık 2025',
+        day: '9 Mayıs 2026',
         title: 'Sabaha Kadar Etkinliğe Devam    ',
     },
     {
         time: '08 : 00',
-        day: '14 Aralık 2025',
+        day: '10 Mayıs 2026',
         title: '2. Gün: Kahvaltı Molası',
     },
     {
         time: '12 : 00',
-        day: '14 Aralık 2025',
+        day: '10 Mayıs 2026',
         title: '2. Gün: Öğle Arası',
     },
     {
         time: '15 : 00',
-        day: '14 Aralık 2025',
+        day: '10 Mayıs 2026',
         title: '2. Gün: Proje Sunumları ve Jürilerin Değerlendirmesi',
     },
     {
         time: '17 : 00',
-        day: '14 Aralık 2025',
+        day: '10 Mayıs 2026',
         title: '2. Gün: Ödül Töreni',
     },
     {
         time: '18 : 00',
-        day: '14 Aralık 2025',
+        day: '10 Mayıs 2026',
         title: '2. Gün: Kapanış',
     },
 ];
@@ -95,7 +95,7 @@ const Calendar = () => {
         </div> */}
             </div>
             <div className={styles.header}>
-                <span> 13 Aralık 2025 - 14 Aralık 2025 </span>
+                <span> 9 Mayıs 2026 - 10 Mayıs 2026 </span>
             </div>
             <div className={styles.content}>
                 {calendar.map((item, index) => {

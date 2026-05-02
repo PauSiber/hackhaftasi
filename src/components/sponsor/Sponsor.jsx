@@ -12,16 +12,11 @@ const allSponsors = [
         imgUrl: '/images/skb_logo.png',
         imgAlt: 'skb_logo',
     },
-    {
-        webUrl: 'https://gsb.gov.tr/tr',
-        imgUrl: '/images/spor-bakanligi.png',
-        imgAlt: 'bakanlik_logo',
-    },
-    {
-        webUrl: 'https://genclikhizmetleri.gov.tr/hizmetlerimiz/genclik-projeleri-destek-programi-6/unides/',
-        imgUrl: '/images/unides.png',
-        imgAlt: 'unides_logo',
-    },
+    //{
+    //    webUrl: 'https://gsb.gov.tr/tr',
+    //    imgUrl: '/images/spor-bakanligi.png',
+    //    imgAlt: 'bakanlik_logo',
+    //},
     //   {
     //       webUrl: 'https://ratel.com.tr/tr/',
     //       imgUrl: '/images/ratel_logo.webp',
@@ -67,9 +62,7 @@ const Sponsor = () => {
             </div>
             <div
                 className={styles.sponsors}
-                style={{
-                    justifyContent: allSponsors.length <= 3 ? 'flex-start' : 'center',
-                }}
+                style={{ justifyContent: 'center' }}
             >
                 {allSponsors.map((sponsor, index) => (
                     <div className={`${styles.img} ${index >= 2 ? styles.largeImg : ''}`}>

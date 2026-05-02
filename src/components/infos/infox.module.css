@@ -14,6 +14,36 @@
   gap: 16px;
 }
 
+.aiHighlight {
+  position: relative;
+  padding: 32px 28px;
+  border: 1px solid rgba(213, 216, 32, 0.4);
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    rgba(213, 216, 32, 0.07),
+    rgba(213, 216, 32, 0.01) 60%
+  );
+  box-shadow: 0 0 22px rgba(213, 216, 32, 0.08),
+    inset 0 0 14px rgba(213, 216, 32, 0.04);
+}
+
+.aiHighlight::before {
+  content: 'YENİ';
+  position: absolute;
+  top: -12px;
+  left: 28px;
+  background: var(--bg);
+  color: var(--templateColor);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 2px 12px;
+  border: 1px solid var(--templateColor);
+  border-radius: 4px;
+  text-shadow: 0 0 8px rgba(213, 216, 32, 0.5);
+}
+
 .title {
   color: var(--templateColor);
   font-size: 28px;

@@ -98,7 +98,7 @@ const Navbar = () => {
                 <div className={styles.navEnd}>
                     <a
                         className={styles.button}
-                        href='https://kommunity.com/pausiber/events/codecareer-fest25-hackahton-18735be2'
+                        href='https://kommunity.com/pausiber/events/pausiber-hackathon-11130ad6'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -127,7 +127,7 @@ const Navbar = () => {
                 <div className={styles.mobileRightSide}>
                     <a
                         className={styles.mobileButton}
-                        href='https://kommunity.com/pausiber/events/codecareer-fest25-hackahton-18735be2'
+                        href='https://kommunity.com/pausiber/events/pausiber-hackathon-11130ad6'
                         target='_blank'
                         rel='noreferrer'
                     >
